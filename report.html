@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
+  rel="stylesheet"
+/>
+<link href="elbs.css" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- Image and text -->
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img
+        src="MDB5-STANDARD-UI-KIT-Free-6.2.0/img/logo.ico"
+          class="me-2"
+          height="40"
+          alt="ELBS Logo"
+          loading="lazy"
+        />
+        <small class="title">ELBS E-Report</small>
+      </a>
+    </div>
+    
+  </nav>
+  <br>
+  <div class="dropdown">
+    <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
+      Dropdown
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+      <li><a href="date.html" button class="dropdown-item" role="button">Select Date</a></li>
+      <li><a href="report.html" button class="dropdown-item" role="button">Report Page</a></li>
+      <li><a href="login.html" button class="dropdown-item" role="button">Log Out</a></li>
+    </ul>
+  </div>
+<br><br><br>
+<div class="table-responsive">
+  <table class="table" id="myTable">
+    <thead>
+      <tr class="titlerow">
+        <th scope="col">#</th>
+        <th scope="col-md-6">Branch Name</th>
+        <th scope="col-md-3">Amount</th>
+        <th scope="col-md-3">Bill</th>
+        <th scope="col-md-3">Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="accordion-toggle collapsed"
+        id="accordion1"
+        data-mdb-toggle="collapse"
+        data-mdb-parent="#accordion1"
+        href="#collapseOne"
+        aria-controls="collapseOne"
+      >
+        <td class="expand-button" ></td>
+        <td>Date: 10/04/2022</td>
+        <td id="val">2000</td>
+        <td>4</td>
+        <td>POS</td>
+
+      </tr>
+      <tr class="hide-table-padding">
+        <td></td>
+        <td colspan="9">
+          <div id="collapseOne" class="collapse in p-3">
+            <div class="row">
+              <div class="col-5">ELBS demo branch 1</div>
+              <div class="col-3" class="count-me">500</div>
+              <div class="col-2">1</div>
+              <div class="col-2" >POS</div>
+            </div>
+            <div class="row">
+              <div class="col-5">ELBS demo branch 2</div>
+              <div class="col-3" class="count-me">500</div>
+              <div class="col-2">1</div>
+              <div class="col-2" >POS</div>
+            </div>
+            <div class="row">
+              <div class="col-5">ELBS demo branch 3</div>
+              <div class="col-3" class="count-me">500</div>
+              <div class="col-2">1</div>
+              <div class="col-2" >POS</div>
+            </div>
+            <div class="row">
+              <div class="col-5">ELBS demo branch 4</div>
+              <div class="col-3" class="count-me">500</div>
+              <div class="col-2">1</div>
+              <div class="col-2" >POS</div>
+            </div>
+          </div></td>
+      </tr>
+      <tr class="accordion-toggle collapsed"
+        id="accordion2"
+        data-mdb-toggle="collapse"
+        data-mdb-parent="#accordion2"
+        href="#collapseTwo"
+        aria-controls="collapseTwo"
+      >
+        <td class="expand-button"></td>
+        <td>Date: 10/05/2022</td>
+        <td>4200</td>
+        <td>5</td>
+        <td>POS</td>
+      </tr>
+      <tr class="hide-table-padding">
+        <td></td>
+        <td colspan="4">
+          <div id="collapseTwo" class="collapse in p-3">
+            <div class="row">
+              <div class="col-5">ELBS Mega mall</div>
+              <div class="col-3" class="count-me">1200</div>
+              <div class="col-2">2</div>
+              <div class="col-2" >POS</div>
+            </div>
+            <div class="row">
+              <div class="col-5">ELBS Kl</div>
+              <div class="col-3" class="count-me">1500</div>
+              <div class="col-2">1</div>
+              <div class="col-2" >POS</div>
+            </div>
+            <div class="row">
+              <div class="col-5">ELBS Masjid India</div>
+              <div class="col-3" class="count-me">1000</div>
+              <div class="col-2">1</div>
+              <div class="col-2" >POS</div>
+            </div>
+            <div class="row">
+              <div class="col-5">ELBS demo branch 4</div>
+              <div class="col-3" class="count-me">500</div>
+              <div class="col-2">1</div>
+              <div class="col-2" >POS</div>
+            </div>
+          </div></td>
+      </tr>
+      <tr class="accordion-toggle collapsed"
+        id="accordion2"
+        data-mdb-toggle="collapse"
+        data-mdb-parent="#accordion2"
+        href="#collapseThree"
+        aria-controls="collapseThree"
+      >
+        <td class="expand-button"></td>
+        <td>Date: 10/05/2022</td>
+        <td>4200</td>
+        <td>5</td>
+        <td>POS</td>
+      </tr>
+      <tr class="hide-table-padding">
+        <td></td>
+        <td colspan="4">
+          <div id="collapseThree" class="collapse in p-3">
+           <div class="row">
+            
+           </div>
+          </div></td>
+      </tr>
+      
+      
+    </tbody>
+  </table>
+</div>
+  
+
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"
+>
+
+
+</script>
+    
+
+</body>
+
+<footer class="bg-light text-center text-lg-start fixed-bottom">
+  <!-- Grid container -->
+
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2018 Copyright:
+    <a class="text-dark" >ELBS Solution</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+</html>
